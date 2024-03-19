@@ -10,8 +10,8 @@ function App() {
     <body className='bg-[#d5e1ef]'>
 
       <div className="flex justify-center items-center p-8 h-screen w-screen">
-        <div className="child-cont flex justify-center items-center flex-col flex-nowrap  bg-[#ffffff]">
-          <div className="qr-cont bg-[#2b7dfa] flex justify-center items-center m-4 max-h-[100vh] h-full">
+        <div className="flex justify-center items-center flex-col flex-nowrap rounded-xl bg-[#ffffff] md:h-full md:w-72 lg:h-auto lg:w-80">
+          <div className=" flex justify-center items-center m-4 p-4 max-h-[100vh] h-full rounded-xl bg-[#2b7dfa]">
             <QRCode
               className="qr-code cursor-pointer p-4 m-4"
               value={value}
